@@ -56,6 +56,10 @@ a {
 h1 {
   font-size: 20em;
   font-family: "Lucida Console", lucida, monospace;
+  color: #565b63; }
+p {
+  font-size: 12em;
+  font-family: "Lucida Console", lucida, monospace;
   color: #a9afba; }
 
 #main {
