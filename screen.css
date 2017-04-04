@@ -54,7 +54,8 @@ a {
   a:hover {
     color: #009ce0; }
 h1 {
-  font-family: Lucida Console;
+  font-size: 8em;
+  font-family: "Lucida Console", lucida, monospace;
   color: #a9afba; }
 
 #main {
