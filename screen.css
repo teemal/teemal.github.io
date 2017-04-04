@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 1;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -29,7 +29,7 @@ table {
   border-spacing: 0; }
 
 caption, th, td {
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   vertical-align: middle; }
 
@@ -53,6 +53,9 @@ a {
   color: #0388a6; }
   a:hover {
     color: #009ce0; }
+h1 {
+  font-family: Lucida Console;
+  color: #a9afba; }
 
 #main {
   padding: 50px; }
