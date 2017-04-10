@@ -65,10 +65,12 @@ p {
   color: #7089af;
   text-align: center;
   margin: 7%; }
-img {
+img.me {
   width: 20%;
   border-radius: 15px 50px 30px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 a:link {
     color: #7FFFD4;
