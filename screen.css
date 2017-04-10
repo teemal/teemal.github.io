@@ -62,7 +62,8 @@ p {
   font-size: 100%;
   font-family: "Helvetica Neue,Helvetica,Arial,sans-serif, !important;
   color: #a9afba;
-  text-align: center; }
+  text-align: center;
+  margin: 5%; }
 img {
   width: 20%;
   border-radius: 15px 50px 30px;
