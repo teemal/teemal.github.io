@@ -15,7 +15,7 @@ time, mark, audio, video {
   padding: 0;
   border: 2;
   font-size: 100%;
-<!--  font: inherit; -->
+  font: inherit; 
   vertical-align: baseline; }
 
 body {
@@ -40,7 +40,7 @@ q, blockquote {
     content: none; }
 
 a img {
-  border: none; }
+  border: solid black 1px; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
@@ -54,12 +54,12 @@ a {
   a:hover {
     color: #009ce0; }
 h1 {
-  font-size: 20px;
-  font-family: 'Lucida Console', lucida, monospace;
+  font-size: 200%;
+  font-family: "Lucida Console", Monaco, monospace, !important;
   color: #565b63; }
-h2 {
-  font-size: 12px;
-  font-family: 'Lucida Console', lucida, monospace;
+p {
+  font-size: 100%;
+  font-family: "Lucida Console", Monaco, monospace, !important;
   color: #a9afba; }
 
 #main {
