@@ -69,8 +69,7 @@ img.me {
   width: 20%;
   border-radius: 15px 50px 30px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin:center;
 }
 a:link {
     color: #7FFFD4;
