@@ -39,10 +39,6 @@ q, blockquote {
     content: "";
     content: none; }
 
-a img {
-  border: solid black 1px;
-  margin: auto; }
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -65,7 +61,7 @@ p {
   color: #7089af;
   text-align: center;
   margin: 7%; }
-img.me {
+img {
   width: 20%;
   border-radius: 15px 50px 30px;
   height: auto;
