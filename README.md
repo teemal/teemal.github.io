@@ -1,8 +1,8 @@
 ## &copy; Taylor Mallory all rights reserved
 
 
-### Any questions or concerns can be sent [to me](taymal1987@gmail.com)
+### Any questions or concerns can be sent <a href="mailto:taymal1987@gmail.com">to me</a>
 
-###### Shout out to @ybakos for being such a great teacher <a href="https://github.com/ybakos" target="_blank"><img src="http://imgur.com/a/qwjst"></a>
+###### Shout out to @ybakos for being such a great teacher [dat dude](http://i.imgur.com/ZheqgQu.png)
 
 teemal.github.io
