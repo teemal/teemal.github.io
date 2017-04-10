@@ -63,12 +63,13 @@ p {
   font-family: "Helvetica Neue,Helvetica,Arial,sans-serif, !important;
   color: #7089af;
   text-align: center;
-  margin: 5%; }
+  margin: 7%; }
 img {
   width: 20%;
   border-radius: 15px 50px 30px;
   height: auto;
   margin: auto;
+  transform: translate(-50%, -7%);
 }
 #main {
   padding: 50px; }
