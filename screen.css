@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 1;
+  margin: auto;
   padding: 0;
   border: 2;
   font-size: 100%;
@@ -54,13 +54,15 @@ a {
   a:hover {
     color: #009ce0; }
 h1 {
-  font-size: 200%;
-  font-family: "Lucida Console", Monaco, monospace, !important;
-  color: #565b63; }
+  font-size: 250%;
+  font-family: "Helvetica Neue,Helvetica,Arial,sans-serif, !important;
+  color: #565b63;
+  text-align: center; }
 p {
   font-size: 100%;
-  font-family: "Lucida Console", Monaco, monospace, !important;
-  color: #a9afba; }
+  font-family: "Helvetica Neue,Helvetica,Arial,sans-serif, !important;
+  color: #a9afba;
+  text-align: center; }
 img {
   width: 20%;
   border-radius: 15px 50px 30px;
