@@ -1,6 +1,6 @@
 
 jQuery.githubUserRepositories = function(teemal, callback) {
-  jQuery.getJSON("https://api.github.com/users/" + teemal + "/repos?callback=?", callback);
+  jQuery.getJSON("https://api.github.com/users/teemal/repos?callback=?", callback);
 }
  
 jQuery.fn.loadRepositores = function(teemal) {
