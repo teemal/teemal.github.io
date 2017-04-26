@@ -2,30 +2,70 @@
 <!--The purpose of this is to display works I've done for possible employers. Will be finishing jquery plug-in to display repo on portfolio when I get the chance-->
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
-	
+
     <!--<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">-->
-  </head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Taylor Mallory</title>
-  </head>
-  <body class="index">
-      <h1>Taylor Mallory</h1>
-      <div>
-      <img class="me" src="https://preview.ibb.co/gWbwFk/it_me_new.png" alt="it_me_new" border="0" align="middle"/>
-      </div>
-      <p>I'm a student, U.S. Army veteran, code and design enthusiast, tinker-er, and diy and cooking fanatic. This is my portfolio illustrating works done for school, passion, and curiosity.</br>I can be contacted at  <a href="mailto:taymal1987@gmail.com">taymal1987@gmail.com</a></p>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.github.com/teemal" target="_blank">Taylor Mallory</a>
+            </div>
 
-<div id="display_github_repos"/>;
-<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-<script src="/home/sledge/Desktop/teemal.github.io/teemal.github.io" type="text/javascript"></script>
-<script type="text/javascript">
-    $(function() {
-        $("#my-github-projects").loadRepositories(teemal);
-    });
-</script>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 
-  
+        </li>
+      </ul>
+
+    </div> /.navbar-collapse 
+-->
+
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+</head>
+
+<body class="index">
+
+    <div class="container">
+        <h1>Taylor Mallory</h1>
+        <div>
+            <img class="me" src="https://preview.ibb.co/gWbwFk/it_me_new.png" alt="it_me_new" border="0" align="middle" />
+        </div>
+        <p>I'm a student, U.S. Army veteran, code and design enthusiast, tinker-er, and diy and cooking fanatic. This is my portfolio illustrating works done for school, passion, and curiosity.
+            <br/>I can be contacted at <a href="mailto:taymal1987@gmail.com">taymal1987@gmail.com</a></p>
+
+        <div id="github-projects"></div>
+    </div>
+    <script src="github.js" type="text/javascript"></script>
+
 </body>
+
 </html>
