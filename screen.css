@@ -69,6 +69,7 @@ img {
   width: 20%;
   border-radius: 15px 50px 30px;
   height: auto;
+  margin: auto; 
 }
 a:link {
     color: #7FFFD4;
