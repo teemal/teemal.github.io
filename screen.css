@@ -1,35 +1,122 @@
+body{
+  background-color: #f2f2f2;
+}
 
-.me{
-  width: 30%;
-  border-radius: 7px;
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header > a{
+  color: #00a3aa;
+  margin-left: 30px;
+}
+
+header > a:hover{
+  background-color: white;
+}
+
+
+.home{
+  display: none;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#me{
+  grid-column: 3;
+  grid-row: 3;
+  width: 80%;
 }
 
 h1{
+  grid-column: 3;
+  grid-row: 1;
+  margin-left: -40px;
   text-align: center;
   font-family: 'Lora', serif;
 }
 
-h4{
+#quote{
+  grid-column: 3;
+  grid-row: 4;
   font-family: 'Roboto Mono', monospace;
 }
 
-.nav{
-    background-color: black;
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+
+.lang{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 100px 30% 30% 100px;
 }
-.nav li{
-    display:inline;
+
+#logo_2{
+  /*display: none;*/
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+  width: 100%;
 }
-.nav a:hover{
-  background-color: white;
+
+#blurb_2{
+  /*display: none;*/
+  display: grid;
+  grid-column: 2;
+  grid-row: 3;
+  width: 200%;
+  margin-left: 200px;
+  margin-top: 75px;
+  text-align: center;
 }
-.nav a{
-    font-family: 'Roboto Mono', monospace;
-    display:inline-block;
-    padding:10px;
+
+#logo_1, #logo_3, #logo_4, #logo_5, #logo_5, #logo_6, #logo_7, #logo_8, #logo_9, #logo_10 
+{
+  display: none;
+  grid-column: 3;
+  grid-row: 2;
+  width: 100%;
+}
+
+#blurb_1, #blurb_3, #blurb_4, #blurb_5, #blurb_6, #blurb_7, #blurb_8, #blurb_9, #blurb_10
+{
+  display: none;
+  grid-column: 2;
+  grid-row: 3;
+  width: 200%;
+  margin-left: 200px;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.left_arrow{
+  display: grid;
+  grid-column: 2;
+  grid-row: 3;
+  width: 20%;
+  opacity: .5;
+}
+
+.left_arrow:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.right_arrow{
+  display: grid;
+  grid-column: 5;
+  grid-row: 3;
+  width: 20%;
+  opacity: .5;
+}
+
+.right_arrow:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.exp{
+
 }
