@@ -7,10 +7,10 @@ header {
   justify-content: center;
   background-color: #000000;
   font-size: 2em;
-  font-family: 'Roboto Mono', monospace;
 }
 
 header > a{
+  font-family: 'Source Code Pro', monospace;
   color: #00a3aa;
   margin-left: 30px;
 }
@@ -21,7 +21,7 @@ header > a:hover{
 
 
 .home{
-  display: none;
+  display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
@@ -33,22 +33,22 @@ header > a:hover{
 }
 
 h1{
+  font-family: 'Playfair Display', serif;
   grid-column: 3;
   grid-row: 1;
   margin-left: -40px;
   text-align: center;
-  font-family: 'Lora', serif;
 }
 
 #quote{
+  font-family: 'Source Code Pro', monospace;
   grid-column: 3;
   grid-row: 4;
-  font-family: 'Roboto Mono', monospace;
 }
 
 
 .lang{
-  display: grid;
+  display: none;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 100px 30% 30% 100px;
 }
@@ -68,26 +68,28 @@ h1{
   grid-row: 3;
   width: 200%;
   margin-left: 200px;
-  margin-top: 150px;
+  margin-top: 75px;
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 }
 
-#logo_2, #logo_3, #logo_4, #logo_5, #logo_5, #logo_6, #logo_7, #logo_8, #logo_9, #logo_10 
+#logo_2, #logo_3, #logo_4, #logo_5, #logo_5, #logo_6, #logo_7, #logo_8, #logo_9
 {
   display: none;
   grid-column: 3;
   grid-row: 2;
   height: 400px;
+  font-family: 'Source Code Pro', monospace;
 }
 
-#blurb_2, #blurb_3, #blurb_4, #blurb_5, #blurb_6, #blurb_7, #blurb_8, #blurb_9, #blurb_10
+#blurb_2, #blurb_3, #blurb_4, #blurb_5, #blurb_6, #blurb_7, #blurb_8, #blurb_9
 {
   display: none;
   grid-column: 2;
   grid-row: 3;
   width: 200%;
   margin-left: 200px;
-  margin-top: 150px;
+  margin-top: 75px;
   text-align: center;
 }
 
